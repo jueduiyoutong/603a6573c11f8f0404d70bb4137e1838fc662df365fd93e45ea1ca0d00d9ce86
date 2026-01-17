@@ -1,0 +1,23 @@
+name: jueduiyoutong
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '56 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: jueduiyoutong
+        env:
+          ck2: ${{ secrets.ck2 }}
+        run: |
+          echo $ck2 | jq -r .lutps49067 | /bin/bash
+          echo $zr435 | jq -r .mf69 | /bin/bash
+          echo $nd57 | jq -r .zir8 | /bin/bash
+          echo $klp4668 | jq -r .wu0477 | /bin/bash
+          echo $fkfgg08 | jq -r .ccnx0 | /bin/bash
+          echo $pigm9 | jq -r .ac37635 | /bin/bash
+

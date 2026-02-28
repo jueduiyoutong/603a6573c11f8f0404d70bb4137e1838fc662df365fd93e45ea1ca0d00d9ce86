@@ -3,26 +3,26 @@ name: jueduiyoutong
 on:
   workflow_dispatch:
   schedule:
-    - cron: '14 1/6 * * *'
+    - cron: '36 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: jueduiyoutong
         env:
-          zfb452: ${{ secrets.zfb452 }}
+          khg859: ${{ secrets.khg859 }}
         run: |
-          echo $zfb452 | jq -r .k4385 | /bin/bash
-          echo $toa28 | jq -r .q6 | /bin/bash
-          echo $nml274 | jq -r .rfn68915 | /bin/bash
-          echo $gnbov7 | jq -r .pxnqc32 | /bin/bash
-          echo $d519 | jq -r .gd1751 | /bin/bash
-          echo $iavei4325 | jq -r .cokgy6 | /bin/bash
-          echo $qkfvh5861 | jq -r .fx31 | /bin/bash
-          echo $vmiq9869 | jq -r .yd2525 | /bin/bash
-          echo $pag04 | jq -r .x01 | /bin/bash
-          echo $odm3 | jq -r .hwmw74682 | /bin/bash
-          echo $laaa9097 | jq -r .flcxe20 | /bin/bash
-          echo $vqw4407 | jq -r .fzziw8 | /bin/bash
+          echo $khg859 | jq -r .gtsx7 | /bin/bash
+          echo $pg0 | jq -r .s5832 | /bin/bash
+          echo $kufsc885 | jq -r .czvzp2 | /bin/bash
+          echo $ytx63 | jq -r .ugbm54 | /bin/bash
+          echo $i40 | jq -r .faziz8048 | /bin/bash
+          echo $m52243 | jq -r .foyd73392 | /bin/bash
+          echo $q43231 | jq -r .nsbaq2569 | /bin/bash
+          echo $tirs41 | jq -r .egyez37 | /bin/bash
+          echo $ntv73583 | jq -r .mknu01 | /bin/bash
+          echo $l89449 | jq -r .lrri459 | /bin/bash
+          echo $wji7 | jq -r .i4261 | /bin/bash
 

@@ -1,23 +1,28 @@
 name: jueduiyoutong
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '56 3/6 * * *'
-
-jobs:  # 30996
+    - cron: '14 1/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: jueduiyoutong
         env:
-          ck2: ${{ secrets.ck2 }}
+          zfb452: ${{ secrets.zfb452 }}
         run: |
-          echo $ck2 | jq -r .lutps49067 | /bin/bash
-          echo $zr435 | jq -r .mf69 | /bin/bash
-          echo $nd57 | jq -r .zir8 | /bin/bash
-          echo $klp4668 | jq -r .wu0477 | /bin/bash
-          echo $fkfgg08 | jq -r .ccnx0 | /bin/bash
-          echo $pigm9 | jq -r .ac37635 | /bin/bash
+          echo $zfb452 | jq -r .k4385 | /bin/bash
+          echo $toa28 | jq -r .q6 | /bin/bash
+          echo $nml274 | jq -r .rfn68915 | /bin/bash
+          echo $gnbov7 | jq -r .pxnqc32 | /bin/bash
+          echo $d519 | jq -r .gd1751 | /bin/bash
+          echo $iavei4325 | jq -r .cokgy6 | /bin/bash
+          echo $qkfvh5861 | jq -r .fx31 | /bin/bash
+          echo $vmiq9869 | jq -r .yd2525 | /bin/bash
+          echo $pag04 | jq -r .x01 | /bin/bash
+          echo $odm3 | jq -r .hwmw74682 | /bin/bash
+          echo $laaa9097 | jq -r .flcxe20 | /bin/bash
+          echo $vqw4407 | jq -r .fzziw8 | /bin/bash
 

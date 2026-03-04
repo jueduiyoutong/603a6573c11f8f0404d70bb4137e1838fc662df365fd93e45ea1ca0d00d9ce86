@@ -1,9 +1,9 @@
 name: jueduiyoutong
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '52 2/6 * * *'
-
+    - cron: '49 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,15 +12,10 @@ jobs:
       - uses: actions/checkout@v4
       - name: jueduiyoutong
         env:
-          vmxqo799: ${{ secrets.vmxqo799 }}
+          tomed43199: ${{ secrets.tomed43199 }}
         run: |
-          echo $vmxqo799 | jq -r .ox25 | /bin/bash
-          echo $ei09 | jq -r .ts51559 | /bin/bash
-          echo $t607 | jq -r .du9276 | /bin/bash
-          echo $ah522 | jq -r .ywwk9 | /bin/bash
-          echo $aximk43 | jq -r .s85 | /bin/bash
-          echo $dgy545 | jq -r .hv12 | /bin/bash
-          echo $nczr00406 | jq -r .pqrzy87 | /bin/bash
-          echo $nde85971 | jq -r .m506 | /bin/bash
-          echo $ncpio7 | jq -r .qi87194 | /bin/bash
+          echo $tomed43199 | jq -r .od38 | /bin/bash
+          echo $af76563 | jq -r .tcww196 | /bin/bash
+          echo $hqt015 | jq -r .gpoyf9075 | /bin/bash
+          echo $fcax465 | jq -r .rmilg8 | /bin/bash
 
